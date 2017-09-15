@@ -1,0 +1,69 @@
+
+@import '../../themes/_variable.scss' ;
+@import '../../themes/_basic.scss' ;
+
+.flex-block{
+    padding:10px;
+    h4{
+        line-height: 46px;
+    }
+    li{
+        width:80px;
+        height: 100px;
+        background: #ccc;
+    }
+}
+.left{
+    background:#f1d722;
+    min-height: 60px;
+}
+.mid{
+    background:#f95656;
+    min-height: 60px;
+}
+.right{
+    background:#5fc383;
+    min-height: 60px;
+}
+// 分列布局
+.flex-cols{
+}
+
+.flex-center{
+
+}
+
+.flex-side-static{
+    margin-bottom: 10px;
+    .left{
+        width:100px;
+    }
+}
+
+.flex-tow-side{
+    .left
+    ,.right{
+        width:30px;
+    }
+}
+
+
+
+
+.user-info{
+    .user-avatar{
+        width:50px;
+        background:#f1d722;
+        .avatar{
+            width:40px;
+            height:40px;
+            border-radius: 50%;
+            overflow: hidden;
+            background:#ccc;
+        }
+    }
+    .user-about{
+        padding-left: 10px;
+        background:#5fc383;
+    }
+}

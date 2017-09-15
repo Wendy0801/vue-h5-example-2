@@ -1,0 +1,63 @@
+@charset "utf-8" ; 
+
+.pswp__top-bar {
+    .pswp__button--share ,
+    .pswp__button--fs{
+        display: none!important;
+    }
+}
+
+
+
+.mint-indicator-wrapper {
+    padding:12px !important ;
+    z-index:999;
+}
+
+// .mint-indicator-wrapper {
+//     padding:10px 20px !important ;
+//     .mint-indicator-spin {
+//         display: none;
+//     }
+//     .mint-indicator-text{
+//         margin-top:0;
+//     }
+// }
+
+.mint-popup-2 {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    background-color: rgba(0,0,0,.7);
+    backface-visibility: hidden;
+}
+.mint-popup-app {
+    padding-top:16px;
+}
+.mint-popup-2 p {
+    line-height: 40px;
+    color: #fff;
+}
+
+.mt-range-content {
+    margin-right:16px;
+}
+.mt-range-runway {
+    right:-16px;
+}
+.mt-range-thumb {
+    width:16px;
+    height:16px;
+    top:6px;
+}
+
+
+.swiper-container{
+    height:100vh!important;
+    .swiper-item {
+        img{
+            height: 100vh;
+            max-width: none;
+        }
+    }
+}

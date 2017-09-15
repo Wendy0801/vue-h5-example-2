@@ -1,0 +1,23 @@
+
+@import '../../themes/_variable.scss' ;
+@import '../../themes/_basic.scss' ;
+
+.upload-label{
+    width:120px;
+}
+.upload-result-item{
+    margin-bottom:10px;
+    padding:10px 16px;
+    input{
+        display: block;
+        width:100%;
+        line-height:20px;
+        height:40px;
+    }
+    a{
+        display: block;
+        word-break: break-all;
+        margin-top:4px;
+    }
+
+}

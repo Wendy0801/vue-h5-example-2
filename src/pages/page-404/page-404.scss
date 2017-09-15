@@ -1,0 +1,15 @@
+
+@import '../../themes/_variable.scss' ;
+@import '../../themes/_basic.scss' ;
+
+.main-wrap{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate3d(-50%,-50%,0);
+    font-size: 60px;
+    letter-spacing: 10px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    color:#666;
+}
